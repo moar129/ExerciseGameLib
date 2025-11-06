@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameLib
 {
-    public class GamingRepo: IGaming
+    public class GamingRepo: IGaming<Game>
     {
         private static int _nextId = 1;
         private List<Game> _games = new List<Game>();

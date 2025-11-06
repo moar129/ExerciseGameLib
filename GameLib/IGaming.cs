@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameLib
 {
-    public interface IGaming
+    public interface IGaming<T>
     {
-        Game Add(Game game);
-        IEnumerable<Game> Get();
-        Game? Get(int id);
-        Game? Delete(int id);
-        Game? Update(int id, Game updatedGame);
+        T Add(T game);
+        IEnumerable<T> Get();
+        T? Get(int id);
+        T? Delete(int id);
+        T? Update(int id, T updatedGame);
     }
 }
