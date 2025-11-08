@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLib", "GameLib\GameLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestGaming", "RestGaming\RestGaming.csproj", "{82138A87-59CF-49E2-BC03-464BE6F509CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLibTests", "GameLibTests\GameLibTests.csproj", "{D34A1597-E10C-4E7F-8175-CBAC3C4DDFCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{82138A87-59CF-49E2-BC03-464BE6F509CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82138A87-59CF-49E2-BC03-464BE6F509CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82138A87-59CF-49E2-BC03-464BE6F509CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34A1597-E10C-4E7F-8175-CBAC3C4DDFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34A1597-E10C-4E7F-8175-CBAC3C4DDFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34A1597-E10C-4E7F-8175-CBAC3C4DDFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34A1597-E10C-4E7F-8175-CBAC3C4DDFCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

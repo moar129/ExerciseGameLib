@@ -8,7 +8,7 @@ namespace GameLib
 {
     public class GamingRepo: IGaming<Game>
     {
-        private static int _nextId = 1;
+        private int _nextId = 1;
         private List<Game> _games = new List<Game>();
         public GamingRepo() { }
         public Game Add(Game game)

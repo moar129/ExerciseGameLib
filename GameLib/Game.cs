@@ -18,7 +18,7 @@
                 {
                     throw new ArgumentNullException("Title cannot be null");
                 }
-                if (value.Length < 1 ) {
+                if (value.Length < 2 ) {
                     throw new ArgumentException("Must be at least 1 char long");
                 }
                 _title = value;
@@ -33,7 +33,7 @@
                 {
                     throw new ArgumentNullException("Genre cannot be null");
                 }
-                if (value.Length < 1)
+                if (value.Length < 2)
                 {
                     throw new ArgumentException("Must be at least 1 char long");
                 }
