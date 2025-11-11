@@ -11,7 +11,8 @@ namespace GameLib.Tests
     [TestClass()]
     public class GamingRepoTests
     {
-        private GamingRepo _repo = new GamingRepo();
+        private const bool useDatabase = true;
+        private IGaming<Game> _repo = new GamingRepo();
 
         [TestInitialize()]
         public void Setup()
